@@ -1,0 +1,15 @@
+{
+  "name": "yt-project",
+  "version": "1.0.0",
+  "description": "a backend at chai&code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javaScript",
+    "backend"
+  ],
+  "author": "Mayur Banakar",
+  "license": "ISC"
+}
