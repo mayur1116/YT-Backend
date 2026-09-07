@@ -1,4 +1,4 @@
-const asynHandler = (requestHandler) => {
+const asyncHandler = (requestHandler) => {
     return (req,res,next) => {
         Promise.resolve(requestHandler(req,res,next))  // here requestHandler fun we are passing should itself run Asynchronously 
         .catch((err) => next(err)) // error will be handled by error handling middleware by calling next(err)
@@ -19,4 +19,4 @@ const asynHandler = (requestHandler) => {
 //     }
 // }
 
-export { asynHandler }
+export { asyncHandler }
